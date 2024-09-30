@@ -1,0 +1,121 @@
+body {
+    font-family: 'EB Garamond', serif; /* Use EB Garamond font */
+    margin: 0px;
+    font-size: 1.2vw;
+}
+
+#logo {
+    font-family:"Give You Glory", cursive;
+    margin: 0px;
+    padding: 10px 0;
+    letter-spacing: 35px;
+    text-align: center;
+    word-spacing: -20px;
+    font-size: 4em;
+    color: #FFFAF0;
+    border-radius: 20%;
+    letter-spacing: 50px;
+    text-shadow: 
+        2px 2px 0 #000,  
+        -2px -2px 0 #FFF, 
+        1px 1px 5px rgba(0, 0, 0, 0.3); 
+}
+
+
+
+ul{
+    margin: 0px;
+}
+body> header {
+    background-color: #2F4F4F;
+    color: F7F7F7;
+    display:flexbox;
+    align-items:center ;
+    height: 30vh;
+    padding-left: 100px;
+    justify-content:space-around;
+}
+
+#nav-ul {
+    display: flex;
+}
+#nav-ul > li {
+    padding: 30px;
+    display:inline-block;
+    margin-right: 10px;
+    margin-left:85px;
+    justify-content: flex-start;
+}
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbutton {
+    color: white;
+    text-decoration: none;
+}
+
+body> main article {
+    width: 80%;
+    margin: auto;
+}
+#main-content {
+    display: flex;
+    justify-content: space-around;
+}
+#main-content > div {
+    width: 85%;
+}
+form {
+    text-align:center ;
+}
+h2{
+    font-family: "Give You Glory", cursive;
+    font-size: 3em;
+    text-align:center ;
+}
+#ending{
+    font-family:"Give You Glory", cursive;
+    margin: 0px;
+    padding: 10px 0;
+    letter-spacing: 35px;
+    text-align: center;
+    word-spacing: -20px;
+    font-size: 4em;
+    border-radius: 20%;
+    color: #FFFAF0;
+    letter-spacing: 50px;
+    text-shadow: 
+        2px 2px 0 #000,   /* Black shadow on bottom-right */
+        -2px -2px 0 #FFF, /* White shadow on top-left */
+        1px 1px 5px rgba(0, 0, 0, 0.3); /* Subtle black glow */
+}
+    
+body> footer{
+    background-color: #2F4F4F;
+    display: flexbox;
+}
+#nav-signs {
+    display: flexbox;
+    list-style: none;
+    padding: 30px;
+    display:inline-block;
+    justify-content: flex-start;
+}
+
+#nav-signs> div>li {
+    padding: 30px;
+    display:inline-block;
+    margin-left:200px;
+    align-items:center;
+    justify-content: flex-start;
+}
+#nav-signs> div > li> a{
+    color: white;
+    text-decoration: none;
+}
+
+img{
+    border-radius: 10%;
+}
